@@ -17,5 +17,37 @@
     <h3>em태그</h3>
     <em>em태그를 사용한 모습입니다.</em>
     <p>예제 1 : 여기서부터는 위험하니 <em>절대로</em> 지나가지 마세요.</p>
+    <br>
+    <br>
+
+    <!--3.6 Form 구성하기-->
+    <!--폼 이란?
+    HTML에서 사용자에게 정보를 입력받고 서버로 전송하기 위한 양식(인터페이스)
+    [name]속성은 서버로 전송될 때, name속성에 적힌 값이 이름을 지정됨.
+    [value]속성은 입력요소의 초깃값.-->
+    <form action="#" method="post">
+        <input type="text" name="아이디" value="ID">
+        <input type="password" name="비밀번호" value="비밀번호">
+        <input type="tel" name="전화번호" value="전화번호">
+        <input type="number" name="숫자" value="1234">
+        <input type="url" name="주소" value="주소">
+        <input type="search" name="검색용텍스트" value="검색용텍스트">
+        <input type="email" name="이메일" value="이메일">
+        <input type="checkbox" name="체크박스">
+        <input type="radio" name="라디오버튼">
+        <input type="file" name="파일업로드요소">
+        <input type="button" name="버튼" value="버튼">
+        <input type="image" src="./src/github.svg" style="width: 50px;" height="50px">
+        <input type="hidden">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="month">
+        <input type="week">
+        <input type="time">
+        <input type="range">
+        <input type="color">
+        <input type="submit">
+        <input type="reset">
+    </form>
 </body>
 </html>
